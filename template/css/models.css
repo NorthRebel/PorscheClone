@@ -1,0 +1,41 @@
+#ModelsTabs {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#line {
+    height: 100%;
+    border-left: 1px solid #000;
+}
+.col-1 {
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+
+.col-2 {
+  border-left: 1px solid;
+  margin-left: -1px;
+  padding-left: 20px;
+}
+
+table {
+    text-align: center;
+}
+
+#thcol > tr > th {
+    text-align: center;
+}
+
+.modelItem  {
+    text-decoration: none;
+    color: black;
+    font-size:15px;
+}
+.modelItem:hover  {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    font-size:15px;
+}

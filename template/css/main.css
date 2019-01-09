@@ -1,0 +1,29 @@
+.modlist {
+    display:inline-block;   
+    position:relative;  
+}
+
+.modlist > div > span {
+    display:inline-block;
+    position:absolute;
+    top:140px;   
+    left:20px;
+     
+    /* Оформление текста */
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px; 
+     
+
+    padding:10px 10px;
+}
+
+.modlist > div > span > a {
+    text-decoration: none;
+    color: azure;
+}
+
+.modlist > div > span > a:hover {
+    text-decoration: none;
+    color: darkred;
+}

@@ -1,0 +1,25 @@
+.rad {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);    /* Тень, отбрасываемая картинкой */ 
+    margin-top: 20px;
+    background: white;
+}
+
+.inner {
+    text-align: center;
+    background: rgb(113,214,210); 
+    background: -webkit-linear-gradient(bottom left, rgb(113,214,210) 0%, rgb(237,237,237) 52%, rgb(255,255,255) 100%);
+    background: -o-linear-gradient(bottom left, rgb(113,214,210) 0%, rgb(237,237,237) 52%, rgb(255,255,255) 100%);
+    background: linear-gradient(to top right, rgb(113,214,210) 0%, rgb(237,237,237) 52%, rgb(255,255,255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71d6d2', endColorstr='#ffffff',GradientType=1 );
+    border-radius: 5px;
+}
+
+.inner * {
+    margin-bottom: 10px;
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
